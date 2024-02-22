@@ -146,7 +146,7 @@ Indica que o método é um método de teste. Este atributo é específico do MST
 
 ### Resultado primeiro Teste
 O primeiro teste falhou, pois na classe ``` BankAccount ```, existe um erro intencional no método ```Debit ``` onde, em vez de subtrair o valor ```amount``` do saldo ```m_balance``` ele está sendo somado.
-![Teste 1](./assets/TesteF.png)
+<img width="703" alt="Captura de tela 2024-02-22 145857" src="https://github.com/sophiatosarr/teste-de-unidade/assets/99216420/5fdefcce-561c-484f-b3c1-e752705ea2a8">
 
 
 Depois que o código foi alterado no método ```Debit ```, e o valor ```amount``` passou a ser subtraído do saldo ```m_balance```, o teste passou.
