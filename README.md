@@ -151,7 +151,8 @@ O primeiro teste falhou, pois na classe ``` BankAccount ```, existe um erro inte
 
 Depois que o código foi alterado no método ```Debit ```, e o valor ```amount``` passou a ser subtraído do saldo ```m_balance```, o teste passou.
 
-![Teste 1](./assets/TesteC.png)
+<img width="629" alt="Captura de tela 2024-02-22 174011" src="https://github.com/sophiatosarr/teste-de-unidade/assets/99216420/5c62a43e-3ae9-4e3d-89cd-3056d6b934fd">
+
 
 ## Refatoração do Código em Teste
 
