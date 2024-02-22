@@ -148,6 +148,7 @@ Indica que o método é um método de teste. Este atributo é específico do MST
 O primeiro teste falhou, pois na classe ``` BankAccount ```, existe um erro intencional no método ```Debit ``` onde, em vez de subtrair o valor ```amount``` do saldo ```m_balance``` ele está sendo somado.
 ![Teste 1](./assets/TesteF.png)
 
+
 Depois que o código foi alterado no método ```Debit ```, e o valor ```amount``` passou a ser subtraído do saldo ```m_balance```, o teste passou.
 
 ![Teste 1](./assets/TesteC.png)
@@ -263,5 +264,7 @@ Esse Teste foi feito para falhar, pois o método ```Debit```  na classe ```BankA
 
 Dessa forma, os resultados do teste foi a seguinte: 
 ![Teste 2](./assets/Teste2.png)
+<img width="955" alt="image" src="https://github.com/sophiatosarr/teste-de-unidade/assets/99216420/ddbd687c-da3a-4f0b-ae26-d3405a5acdfc">
+
 
 Para que os testes fossem aprovados seria necessário refazer a alteração na classe ```BankAccount```, que foi realizada duranre a etapa de Refatoração do Código de Teste.
